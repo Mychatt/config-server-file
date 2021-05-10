@@ -5,7 +5,7 @@ eureka:
    nonsecure-port-enabled: false
    nonSecurePort: 80
    securePort: 443
-   instanceId: ${eureka.instance.hostname}:${spring.application.name}:${PORT}
+   instanceId: ${eureka.instance.hostname}:${spring.application.name}:8080
    statusPageUrl: https://${eureka.hostname}/
    healthCheckUrl: https://${eureka.hostname}/actuator/health
    secureHealthCheckUrl: https://${eureka.hostname}/actuator/health
