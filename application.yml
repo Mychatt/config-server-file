@@ -1,6 +1,6 @@
 eureka:
  instance:
-   hostname: localhost
+   hostname: lossssssss
    secure-port-enabled: true
    nonsecure-port-enabled: false
    nonSecurePort: 80
